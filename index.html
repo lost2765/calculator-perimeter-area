@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator Perimeter  & area</title>
+
+    <link rel="stylesheet" href="./src/style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h3>Enter a number</h3>
+        <input class="input" placeholder="Enter width" type="number" min="0" id="width" />
+        <input class="input" placeholder="Enter height" min="0" type="number" id="height" />
+        <p class="error" id="err"></p>
+
+        <button class="btn" type="button" id="perBtn">
+            Calculate Perimeter
+        </button>
+        <button class="btn" type="button" id="areaBtn">
+            Calculate Area
+        </button>
+        <p>Perimeter: <span id="perimeterResult"></span></p>
+        <p>Area: <span id="areaResult"></span></p>
+    </div>
+
+    <script src="./src/main.js"></script>
+</body>
+
+</html>
